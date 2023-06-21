@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Application Form</title>
+</head>
+<body>
+  <h1>Job Application Form</h1>
+  <form>
+    <label for="full-name">1. What is your full name?</label>
+    <input type="text" id="full-name" name="full-name" required>
+
+    <label for="email">2. What is your email address?</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone-number">3. What is your phone number?</label>
+    <input type="tel" id="phone-number" name="phone-number" required>
+
+    <label for="gender">4. Gender</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+
+    <label for="dob">5. Date of Birth</label>
+    <input type="date" id="dob" name="dob" required>
+
+    <label for="images">6. Upload your images here</label><br>
+    <input type="file" id="images" name="images" accept="image/*"><br>
+
+    <label for="resume">7. Upload Resume here</label><br>
+    <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx"><br>
+
+    <label for="language">8. Language</label><br>
+    <input type="text" id="language" name="language" required>
+
+    <label for="availability">9. When are you available to start?</label>
+    <input type="date" id="availability" name="availability" required>
+
+    <label for="education">10. What is your current level of education?</label>
+    <select id="education" name="education" required>
+      <option value="" disabled selected>Please select</option>
+      <option value="high-school">High School</option>
+      <option value="bachelors">Bachelor's Degree</option>
+      <option value="masters">Master's Degree</option>
+      <option value="phd">PhD</option>
+    </select>
+
+    <label for="experience">11. Experience</label>
+    <textarea id="experience" name="experience" rows="4" cols="50"></textarea>
+
+    <label for="position">12. What is your desired position?</label><br>
+    <input type="radio" id="intern" name="position" value="intern">
+    <label for="intern">Intern</label><br>
+    <input type="radio" id="part-time" name="position" value="part-time">
+    <label for="part-time">Part-time</label><br>
+    <input type="radio" id="full-time" name="position" value="full-time">
+    <label for="full-time">Full-time</label><br>
+
+    <label for="skills">13. What skills do you possess?</label><br>
+    <input type="checkbox" id="communication" name="skills" value="communication">
+    <label for="communication">Communication</label><br>
+    <input type="checkbox" id="problem-solving" name="skills" value="problem-solving">
+    <label for="problem-solving">Problem-solving</
